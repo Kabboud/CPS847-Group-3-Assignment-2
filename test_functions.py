@@ -2,7 +2,7 @@ import unittest
 from functions import subtract_one
 
 class TestSampleMethods(unittest.TestCase):
-      def test_increment_by_two(self):
+      def test_subtract_one(self):
         """
         Test increments
         """
