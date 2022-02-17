@@ -1,4 +1,4 @@
 def subtract_one(value):
     """
     """
-    return value - 2
+    return value - 1
