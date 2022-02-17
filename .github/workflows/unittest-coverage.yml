@@ -1,6 +1,6 @@
 # Unit Test / Code Coverage Workflow
 
-name: CI
+name: UnitTests & Code Coverage
 
 on:
   pull_request:
@@ -42,5 +42,4 @@ jobs:
           files: ./coverage.xml
           flags: unittests
           name: codecov-umbrella
-          path_to_write_report: ./coverage/codecov_report.txt
           verbose: true
